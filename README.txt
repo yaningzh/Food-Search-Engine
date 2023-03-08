@@ -6,7 +6,6 @@ certain ingredients, ingredients that users want to avoid, the number of searche
 # Scrape dataset
 We include the folder /dataset, which contains the code that we used to scrape our dataset. To scrape the dataset, first run the /dataset/allrecipes-scraper-main to get the urls for recipes. 
 (first run "pip install scrapy", then run "scrapy crawl recipes").
-The original code comes from https://github.com/shaansubbaiah/allrecipes-scraper, and we made some revisions.
 You can also use the files in the /dataset/url_files to proceed. After obtaining the url files, run the dataset.ipynb to scrape the contents in urls, generate docno,
 and save the scraped data to a csv file. We also provide our scraped dataset in the root folder whose name is recipes.csv
 
