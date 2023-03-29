@@ -4,9 +4,9 @@ Our project implemented a search engine for recipes, which allows users to input
 certain ingredients, ingredients that users want to avoid, the number of searched recipes, the range of ratings for recipes, and the range of calories for recipes.
 
 # Scrape dataset
-We include the folder /dataset, which contains the code that we used to scrape our dataset. To scrape the dataset, first run the /dataset/allrecipes-scraper-main to get the urls for recipes. 
+To scrape the dataset, first run the /recipescrape to get the urls for recipes. The final dataset file is too large to upload.
 (first run "pip install scrapy", then run "scrapy crawl recipes").
-You can also use the files in the /dataset/url_files to proceed. After obtaining the url files, run the dataset.ipynb to scrape the contents in urls, generate docno,
+After obtaining the url files, run the dataset.ipynb to scrape the contents in urls, generate docno,
 and save the scraped data to a csv file. We also provide our scraped dataset in the root folder whose name is recipes.csv
 
 # Our search algorithm
